@@ -1,0 +1,5 @@
+After initializing npm, I'd already downloaded express and nodemon (globally), so I installed dotenv for saving files or folder that I dont want to share publicly.
+Created a app.js file which I used as my server as in here, I imported or required other files which I had exported.
+I created a routes folder which has the home.route.js file, here all files and folders where given a direction or path to follow when they are called.
+I created a controlled folder which has the news-controller.js file, this is just for the making posts or news. It has a function that when called gives a response of the value written.
+I created the middleware folder that houses the news-middleware.js file, this file has a middleware which is a function that takes in three(3) parameters(request, require and next). The next parameter only points to the next command or line of code, if there is nothing it stops.

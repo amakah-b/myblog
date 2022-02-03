@@ -1,0 +1,22 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "demo news blog",
+  "main": "app.js",
+  "scripts": {
+    "build": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "news",
+    "blog",
+    "article"
+  ],
+  "author": "Chiamaka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2"
+  }
+}
